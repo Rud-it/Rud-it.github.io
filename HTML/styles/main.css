@@ -1,0 +1,44 @@
+body {
+	margin: 0px;
+}
+.menu {
+	display: flex;
+	padding-top: 40px;
+}
+.header_background {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: flex-end; */
+	background: blue;
+	height: 150px;
+	padding-right: 100px;
+}
+.logo {
+	width: 250px;
+	height: 200px;
+	margin-bottom: -70px;
+}
+.section {
+	font-size: 3rem;
+}
+.horizontal-menu {
+	margin: 10px;
+}
+.dropdawn {
+	display: none;
+	background-color: white;
+	font-style: 2rem;
+}
+.submenu {
+	height: 50px;
+	width: auto;
+	font-size: 35px;
+	padding-left: 15px;
+}
+.section:hover + .dropdawn, .dropdawn:hover {
+	display: block;
+}
+a:hover::before { content: "\2602";}
+.text {
+	margin: 20px;
+}
