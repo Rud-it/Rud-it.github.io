@@ -1,0 +1,39 @@
+.body {
+    background: white;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 1170px;
+    margin: 0px auto;
+    /* height: auto; */
+}
+.rectangle1 {
+    width: 1927px;
+    height: 36px;
+    background-color: #F2F2F2;
+    margin: 0px auto;
+}
+.user {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 404px auto 404px;
+    width: 1170px;
+}
+.product {
+    width: 1170px;
+    /* height: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.offer {
+    min-width: 253px;
+    height: 400px;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    border-radius: 3px;
+    margin: 5px;
+}
