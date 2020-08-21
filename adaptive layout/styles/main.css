@@ -57,7 +57,7 @@ button {
 .carousel {
     margin: 25px auto;
 }
-@media (min-width:969px), (max-width: 1169px) {
+@media (min-width:749px), (max-width: 1169px) {
     .carousel {
         margin: 25px auto;
         display: flex;
@@ -79,6 +79,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px;
 } 
 .value {
     display: flex;
@@ -111,7 +112,7 @@ button {
     transform: rotate(90deg);
     padding: 0px 10px;
 }
-@media (max-width:750px) {
+@media (max-width:969px) {
     .value {
         display: none;
     }
@@ -131,15 +132,12 @@ button {
     max-width: 1117px;
     margin: 0px auto;
 }
-
-
 .product {
     max-width: 1170px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid green;
 }
 .group {
     display: flex;
