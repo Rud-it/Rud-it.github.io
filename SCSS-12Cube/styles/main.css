@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+
+main {
+  border: 1px solid black;
+  margin: 0px auto;
+}
+
+main {
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  width: 900px;
+  height: 900px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  padding: 5px;
+}
+
+.squaer {
+  background-color: grey;
+}
+/*# sourceMappingURL=main.css.map */

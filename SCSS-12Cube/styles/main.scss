@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+main {
+    border: 1px solid black;
+    margin: 0px auto;
+}
+$width_sq: 100px;
+$heigth_sq: 100px;
+$color_sq: grey;
+$color1: white;
+$size_cube: 900px;
+$size1: 5px;
+
+%size_sq {
+    width: $width_sq;
+    height: $heigth_sq;
+}
+
+main {
+    width: $size_cube;
+    height: $size_cube;
+    @extend %size_sq;
+    background-color: $color1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: $size1;
+    padding: $size1;
+}
+.squaer {
+    background-color: $color_sq;
+}
