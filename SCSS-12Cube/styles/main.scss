@@ -9,6 +9,7 @@ $width_sq: 100px;
 $heigth_sq: 100px;
 $color_sq: grey;
 $color1: white;
+$color2: red;
 $size_cube: 900px;
 $size1: 5px;
 
@@ -29,5 +30,8 @@ main {
     padding: $size1;
 }
 .squaer {
-    background-color: $color_sq;
+    background-color: $color2;
+    &:hover {
+        background-color: $color2;
+    }
 }
