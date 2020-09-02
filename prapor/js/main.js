@@ -5,27 +5,31 @@ let tempHeight = 100;
 let tempWidth = 200;
 let one = 1;
 /***** НИЖЕ ЭТОГО КОММЕНТАРИЯ НАПИШИТЕ СВОЙ КОД *****/
-let canvas = document.getElementById('flag');
-one = canvas.getContext('2d');
-flagWidth = tempWidth * 2 + tempHeight;
-flagHeight = tempHeight / 1.5;
-one.fillStyle = '	rgb(30,144,255)';
-one.fillRect(0, 0, flagWidth, flagHeight);
-one.fillStyle = 'rgb(255,255,0)';
-one.fillRect(0, flagHeight, flagWidth, flagHeight);
+
+    flagWidth = `${tempWidth + tempWidth + tempHeight}px`;
+    flagHeight = `${tempHeight + tempWidth}px`;
+    console.log(flagWidth, flagHeight);
+    let fifty = `${tempHeight / (one + one)}%`;
+    let zero = one - one;
+    let tff = `${one + one}${one + one + one + one + one}${one + one + one + one + one}`;
+    console.log(tff);
+    console.log(fifty);
+    
+    flagBackgroundLG = `rgb(${zero},${zero},${tff}) ${fifty}, rgb(${tff},${tff},${zero}) ${fifty}`;
+    console.log(flag);
+    
 
 /***** ВЫШЕ ЭТОГО КОММЕНТАРИЯ НАПИШИТЕ СВОЙ КОД *****/
-/*
 
-.flag { 
-  width: <значение переменной flagWidth>;
-  height: <значение переменной flagHeight>;
-  background: linear-gradient(<значение переменной flagBackgroundLG>);
-}
 
-*/
+// .flag { 
+//   width: <значение переменной flagWidth>;
+//   height: <значение переменной flagHeight>;
+//   background: linear-gradient(<значение переменной flagBackgroundLG>);
+// }
+
+
 
 flag.style.height = flagHeight;
 flag.style.width = flagWidth;
 flag.style.background = `linear-gradient(${ flagBackgroundLG })`;
-
