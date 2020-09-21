@@ -9,12 +9,12 @@ let one = 1;
     flagWidth = `${tempWidth + tempWidth + tempHeight}px`;
     flagHeight = `${tempHeight + tempWidth}px`;
     console.log(flagWidth, flagHeight);
-    let fifty = `${tempHeight / (one + one)}%`;
-    let zero = one - one;
-    let tff = `${one + one}${one + one + one + one + one}${one + one + one + one + one}`;
+    let fifty = `${tempHeight / (one + one)}%`; //50%
+    let zero = one - one; // 0
+    let tff = `${one + one}${one + one + one + one + one}${one + one + one + one + one}`; //255
     console.log(tff);
     console.log(fifty);
-    
+                                //0,0,255
     flagBackgroundLG = `rgb(${zero},${zero},${tff}) ${fifty}, rgb(${tff},${tff},${zero}) ${fifty}`;
     console.log(flag);
     
