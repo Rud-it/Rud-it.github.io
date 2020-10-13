@@ -1,0 +1,14 @@
+
+.main {
+  padding: 10px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+}
+.light {
+  display: none;
+}
+.txt {
+  display: none;
+}
