@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+}
+.main {
+  height: 280px;
+  margin: 150px auto;
+  padding: 15px;
+  border: 2px solid red;
+}
+:root {
+  --width: 200px;
+  --top: -30%
+}
+.card {
+  position: absolute;
+  width: var(--width);
+  height: calc(var(--width) / 5 * 7);
+  border: 1px solid black;
+  z-index: -1;
+  border-radius: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  transition: all, 0.8s, ease, 0.8s;
+}
+.card:hover {
+  transform: rotateY(180deg) translateY(-30%);
+  background: #4b846a;
+  /* transform: translateY(calc(var(--top))); */
+  z-index: 10;
+}
+.card:hover .gradient {
+  display: none;
+}
+.gradient {
+  /* position: absolute; */
+  width: calc(100% - 8%);
+  height: calc(100% - 6%);
+  margin: 4% 4%;
+  z-index: -1;
+  border-radius: 15px;
+  background: repeating-linear-gradient(-45deg, #fff, #fff 25px,  25px, red 75px);
+  box-sizing: border-box;
+}
+.back {
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  top: 0px;
+  width: 198px;
+  height: 278px;
+}
+.suit {
+  color: red;
+  font-size: xxx-large;
+}
+.black {
+  color: black;
+}
+.top {
+  padding-top: 10px;
+}
+.pro {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: xx-large;
+}
+.bot {
+  padding-bottom: 60px;
+  transform: scale(-1, -1);
+}
+
+.card0 {
+  left: 100px;
+  z-index: 0;
+}
+.card1 {
+  left: calc(100px * 2);
+  z-index: 1;
+}
+.card2 {
+  left: calc(100px * 3);
+  z-index: 2;
+}
+.card3 {
+  left: calc(100px * 4);
+  z-index: 3;
+}
+.card4 {
+  left: calc(100px * 5);
+  z-index: 4;
+}
+.card5 {
+  left: calc(100px * 6);
+  z-index: 5;
+}
+.card6 {
+  left: calc(100px * 7);
+  z-index: 6;
+}
+.card7 {
+  left: calc(100px * 8);
+  z-index: 7;
+}
+.card8 {
+  left: calc(100px * 9);
+  z-index: 8;
+}
+.card9 {
+  left: calc(100px * 10);
+  z-index: 9;
+}
